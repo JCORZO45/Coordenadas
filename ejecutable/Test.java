@@ -8,16 +8,13 @@ public class Test
 {
     public static void main(String[] args) {
         Coordenada c1=new Coordenada(0, 0);
+        System.out.println("Coordenada 1: "+"("+c1.getX()+","+c1.getY()+")");
+        System.out.println("x = "+ c1.getX());
+        System.out.println("y = " + c1.getY());
            
 
-            System.out.println("x = "+ c1.getX());
-            System.out.println("y = " + c1.getY());
-           
-  
-        System.out.println("\n");
-
-            Coordenada c2= new Coordenada(0 , 0);
-      
+            Coordenada c2= new Coordenada(9 , 5);
+            System.out.println("Coordenada 2: "+"("+c2.getX()+","+c2.getY()+")");
             System.out.println("x = "+ c2.getX());
             System.out.println("y = " + c2.getY());
         System.out.println("\n");
